@@ -3,7 +3,7 @@ import Contacts from './Contacts.js';
 
 
 function App() {
-
+/*
 const c = [
   {
   name: "Alexander",
@@ -13,12 +13,12 @@ const c = [
     name: "Jorge",
     phone: "654654654"
   }
-]
+]*/
 
   return (
     <div className="App">
       <h1>Contacts App</h1>
-      <Contacts contacts={c}/>
+      <Contacts/>
     </div>
   );
 }
